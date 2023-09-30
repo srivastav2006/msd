@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    
+    border: border-box;
+}
+.navbar{
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    margin-top: 3px;
+    margin-right: 20px;
+    background-image: url(netflixlogo.png.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    align-items: center;
+    
+} 
+.navlogo{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.selectsize{
+    tab-size: 3px;
+}
+.searchbar{
+
+    
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70px;
+}
+.icon{
+    background-color: beige;
+}
+.selectsize{
+    background-color: rgb(58, 50, 50);
+    text-align: center;
+    color: antiquewhite;
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+
+}
+.one{
+    height: 25px;
+    background-color: rgb(58, 50, 50);
+    border: 1px solid black;
+    
+}
+.main{
+    background-image: url(backgroup.jpg);
+    opacity: 100;
+    height: 600px;
+    width: 1532px;
+}
+.two{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    
+}
+.head{
+    position: sticky;
+    top: 0;
+}
+.three{
+    margin-left: 500px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    background-color: rgb(58, 50, 50);
+    font-size: 20px;
+}
+.four{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.five{
+    background-color: red;
+    border: 1px solid red;
+    font-size: 25px;
+    height: 43px;
+    width: 190px;
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.six{
+    background-color: rgb(58, 50, 50);
+    border: 0.5px solid whitesmoke;
+    font-size: 20px;
+    color: antiquewhite;
+    margin-left: 1000px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.w{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.single{
+    text-align: center;
+    font-family: arial;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 23px;
+}
+.double{
+    font-family: arial;
+    color: antiquewhite;
+    font-size: 23px;
+    border: 1px solid transparent;
+    text-align: center;
+}
